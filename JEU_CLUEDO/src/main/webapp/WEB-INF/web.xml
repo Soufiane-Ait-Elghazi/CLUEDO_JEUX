@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <servlet>
+    <description></description>
+    <display-name>Controleur</display-name>
+    <servlet-name>Controleur</servlet-name>
+    <servlet-class>web.Controleur</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Controleur</servlet-name>
+    <url-pattern>/Controleur</url-pattern>
+  </servlet-mapping>
+  <display-name>Cluedo</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>conroleurDeDeplacements</display-name>
+    <servlet-name>conroleurDeDeplacements</servlet-name>
+    <servlet-class>web.conroleurDeDeplacements</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>conroleurDeDeplacements</servlet-name>
+    <url-pattern>/conroleurDeDeplacements</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>controleurPrincipal</display-name>
+    <servlet-name>controleurPrincipal</servlet-name>
+    <servlet-class>web.controleurPrincipal</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>controleurPrincipal</servlet-name>
+    <url-pattern>/controleurPrincipal</url-pattern>
+  </servlet-mapping>
+</web-app>

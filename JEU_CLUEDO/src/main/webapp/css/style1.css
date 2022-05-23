@@ -1,0 +1,87 @@
+
+
+
+
+.body1{
+   background-image: url("../images/autres/bodybackground.png");
+   background-size: 100%;
+   background-repeat: no-repeat;
+
+}
+.div001{
+	margin: auto;
+	background-color:black;
+	height: 90%;
+	width: 100%;
+}
+.table001 {
+	height: 100%;
+	width: 100%;
+	border-spacing: 0;
+}
+.table001 tr td {
+	height : 10%;
+	width : 10%; 
+	padding: 0px 0px 0px 0px;
+	border-collapse: collapse;
+}
+.titre{
+	height : 10%;
+	width : 32%;
+	text-align: center;
+}
+
+.body2{
+   background-image: url("../images/autres/bodybackground.png");
+   background-size: 100%;
+   background-repeat: no-repeat;
+}
+h1{
+	color: white;
+}
+.players{
+	
+	margin: auto;
+	height: 40%;
+	width: 45%;
+	padding-top: 40px;
+	padding-left: 36%;
+	
+}
+#playersNumber{
+	height: 33px;
+	width: 60px;
+}
+#bttn{
+	height: 33px;
+	width: 86px;
+	background-color: orange;
+	color: white;	
+}
+
+.note1{
+	margin : auto;
+	height: 90%;
+	width: 98%;
+}
+.inputNote{
+	height: 22px;
+	width: 22px;
+}
+#test{
+	height: 90%;
+	width: 28%;
+}
+p{
+	color: white;
+	text-align: center;
+}
+h3{
+	color: yellow;
+}
+
+#mesnotes{
+	color: white;
+}
+
+/**/
